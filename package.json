@@ -1,0 +1,22 @@
+{
+  "name": "mars-tests",
+  "version": "1.0.0",
+  "description": "Use Cypress to create tests about Mars weather",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luizaguerra/mars-tests.git"
+  },
+  "author": "Luiza Guerra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luizaguerra/mars-tests/issues"
+  },
+  "homepage": "https://github.com/luizaguerra/mars-tests#readme",
+  "devDependencies": {
+    "cypress": "^4.12.1"
+  }
+}
