@@ -35,7 +35,7 @@ On the first endpoint, I chose to check if the 14 different wind directions were
 
 `https://api.mars.spacexcompanion.app/v1/weather/latest`
 
-In the second endpoint, I checked the specific keys (average, minimum, maximum) for wind speeds.
+In the second endpoint, I checked if the body returned match with the fixture provided (`mars-weather-first-measure.json`).
 
 Because it is an open government API, authentication is not required.
 
