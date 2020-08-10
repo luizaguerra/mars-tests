@@ -13,7 +13,7 @@ describe('tests Mars weater api', () =>{
         cy.request('https://api.mars.spacexcompanion.app/v1/weather/latest').should((response) =>{
             expect(response.status).to.equal(200)
             expect(response.body.season).to.equal('summer')
-            expect(response.body.wind.speed).have.all.keys('average', 'minimum', 'maximum')
+            cy.fixture('mars-weather-first-measure').should('deep.equal', (response.body))
         })
     })
 })

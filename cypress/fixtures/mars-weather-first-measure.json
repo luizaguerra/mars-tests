@@ -1,0 +1,83 @@
+{
+  "sol": 605,
+  "season": "summer",
+  "measurement": {
+    "first": "2020-08-08 00:00:00",
+    "last": "2020-08-09 00:00:00"
+  },
+  "air": {
+    "temperature": {
+      "average": -65.65,
+      "minimum": -92.69,
+      "maximum": -18.38
+    },
+    "pressure": {
+      "average": 790.36,
+      "minimum": 756.81,
+      "maximum": 811.47
+    }
+  },
+  "wind": {
+    "speed": {
+      "average": 8.28,
+      "minimum": 1.85,
+      "maximum": 22.53
+    },
+    "directions": [
+      {
+        "point": "n",
+        "degrees": 0,
+        "up": 1,
+        "right": 0
+      },
+      {
+        "point": "sw",
+        "degrees": 225,
+        "up": -0.71,
+        "right": -0.71
+      },
+      {
+        "point": "wsw",
+        "degrees": 247.5,
+        "up": -0.38,
+        "right": -0.92
+      },
+      {
+        "point": "w",
+        "degrees": 270,
+        "up": 0,
+        "right": -1
+      },
+      {
+        "point": "wnw",
+        "degrees": 292.5,
+        "up": 0.38,
+        "right": -0.92
+      },
+      {
+        "point": "nw",
+        "degrees": 315,
+        "up": 0.71,
+        "right": -0.71
+      },
+      {
+        "point": "nnw",
+        "degrees": 337.5,
+        "up": 0.92,
+        "right": -0.38
+      },
+      {
+        "point": "ssw",
+        "degrees": 202.5,
+        "up": -0.92,
+        "right": -0.38
+      },
+      {
+        "point": "wnw",
+        "degrees": 292.5,
+        "up": 0.38,
+        "right": -0.92
+      }
+    ]
+  }
+}
