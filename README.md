@@ -52,6 +52,8 @@ This flow presents a common challenge for Cypress, dealing with multi-tabs (when
 
 To resolve the situation, I chose to make a request for the URL contained in the `SOURCE CODE` button and make assertions about the returned body.
 
+To simulate the interaction on different devices, I have included some screen size settings for mobile, tablet and desktop and this test runs on each of the settings.
+
 ### Accessibility verification
 File: `mars-weather-a11y.spec`
 
