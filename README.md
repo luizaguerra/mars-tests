@@ -22,6 +22,10 @@ npm run cypress:open
 ```
 npm run cypress:run
 ```
+- To run tests with Docker:
+```
+docker build .
+```
 
 ## Types of tests
 ### API tests
@@ -52,11 +56,13 @@ This flow presents a common challenge for Cypress, dealing with multi-tabs (when
 
 To resolve the situation, I chose to make a request for the URL contained in the `SOURCE CODE` button and make assertions about the returned body.
 
-To simulate the interaction on different devices, I have included some screen size settings for mobile, tablet and desktop and this test runs on each of the settings.
+To simulate the interaction on different devices, I have included some screen size settings for `mobile`, `tablet` and `desktop` and this test runs on each of the settings.
 
 ### Accessibility verification
 File: `mars-weather-a11y.spec`
 
 The accessibility check is performed by [`cypress-axe`](https://github.com/avanslaars/cypress-axe) integration. This verification has no assertions because the purpose is to generate a report with the non-conformities found.
+
+To perform the accessibility check, I created a custom command, which encapsulates all the complexity to make the terminal report and make the command reusable.
 
 As the project is integrated with TravisCI, the absence of assertions aims to allow the build to be completed. The report's transparency allows accessibility issues to be addressed in parallel.
