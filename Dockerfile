@@ -5,7 +5,6 @@ WORKDIR /app
 LABEL maintainer = "Luiza Guerra"
 
 COPY . .
-RUN npm install
 RUN npm install cypress
 
 RUN npm run cypress:run
