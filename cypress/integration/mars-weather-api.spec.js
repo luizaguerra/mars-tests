@@ -5,7 +5,7 @@ describe('tests Mars weater api', () =>{
         cy.request('/first').should((response) =>{
             expect(response.status).to.equal(200)
             expect(response.body.season).to.equal('spring')
-            expect(response.body.wind.directions).to.have.length(13)
+            expect(response.body.wind.directions).to.have.length(14)
         })
     })
 
