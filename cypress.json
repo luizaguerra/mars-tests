@@ -1,4 +1,5 @@
 { 
+    "baseUrl": "https://api.mars.spacexcompanion.app/v1/weather",
     "chromeWebSecurity": false,
     "video": false
 }
